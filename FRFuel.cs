@@ -328,7 +328,7 @@ namespace FRFuel
             {
                 foreach (var pump in GasStations.AircraftPumps[currentGasStationIndex])
                 {
-                    if (Vector3.DistanceSquared(pump, fuelTankPos) <= 20f)
+                    if (Vector3.DistanceSquared(pump, fuelTankPos) <= 40f)
                     {
                         return true;
                     }
